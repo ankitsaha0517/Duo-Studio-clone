@@ -50,12 +50,12 @@ function mouseMouse(){
 }
 mouseMouse()
 
-document.addEventListener("mouseenter",function(){
-    crsr.style.opacity = "1"
-})
-document.addEventListener("mouseleave",function(){
-    crsr.style.opacity = "0"
-})
+// document.addEventListener("mouseenter",function(){
+//     crsr.style.opacity = "1"
+// })
+// document.addEventListener("mouseleave",function(){
+//     crsr.style.opacity = "0"
+// })
 
 gsap.from("#page1 h1,#page1 h2", {
     y: 10,
