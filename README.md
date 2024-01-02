@@ -7,4 +7,4 @@
 It is Using made using javascript and gsap animation and locomotive js and gsap scrollTrigger.
 
 
-click 👉
+click 👉 https://ankitsaha0517.github.io/Duo-Studio-clone/
