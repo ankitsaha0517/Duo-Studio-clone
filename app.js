@@ -125,6 +125,7 @@ function box(){
             crsr.style.borderRadius = "0";
             crsr.style.backgroundImage = `url(${att})`;
             crsr.style.backgroundColor = `#0F0D0D`;
+             crsr.style.mixBlendMode = `normal`;
         })
     })
     document.querySelectorAll(".cel").forEach(function(elem){
@@ -134,6 +135,7 @@ function box(){
             crsr.style.borderRadius = "50%";
             crsr.style.backgroundImage = `none`;
             crsr.style.backgroundColor = `#EDBFFF`;
+            crsr.style.mixBlendMode = `difference`;
         })
     })
 }
